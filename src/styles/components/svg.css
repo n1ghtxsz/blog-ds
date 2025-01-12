@@ -1,0 +1,8 @@
+.svg-item {
+    background-color: transparent;
+}
+
+.svg-item:hover {
+    transition: ease 0.5s;
+    color: aqua;
+}

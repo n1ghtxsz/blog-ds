@@ -6,3 +6,32 @@
     transition: ease 0.3s;
     background-color: green;
 }
+
+.navbar {
+    background-color: #6854cc; /* Cor laranja */
+}
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+.profile-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.item-grey {
+    color: white;
+}
+
+.item-grey:hover {
+    transition: ease 0.3s;
+    color: lightgrey;
+}
+
+.poppins {
+    font-family: Poppins;
+}
