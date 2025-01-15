@@ -3,6 +3,10 @@
         display: flex;
     }
 
+    div.card {
+        width: 18rem;
+    }
+
     header>div>img {
         width: 150px;
     }
@@ -14,6 +18,10 @@
     header>div>h1.me-5 {
         font-size: 50px;
     }
+
+    article {
+        display: flex;
+    }
 }
 
 @media screen and (max-width: 985px) {
@@ -21,8 +29,23 @@
         width: 150px;
     }
 
+    div.card {
+        width: 18rem;
+    }
+
     header>div>h1 {
         font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    div.card {
+        width: 14rem;
+    }
+
+    div.card>img {
+        width: 200px;
+        height: 200px;
     }
 }
 
@@ -43,5 +66,14 @@
 
     header>div>h1 {
         font-size: 30px;
+    }
+
+    div.card {
+        width: 10rem;
+    }
+
+    div.card>img {
+        width: 150px;
+        height: 150px;
     }
 }

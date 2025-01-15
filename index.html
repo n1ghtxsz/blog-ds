@@ -13,6 +13,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="src/styles/components/svg.css">
+    <link rel="stylesheet" href="src/styles/layouts/colors.css">
     <link rel="stylesheet" href="src/styles/components/responsive.css">
     <title>DS AMS BLOG</title>
 </head>
@@ -92,25 +93,48 @@
                 </div>
               </div>
             </div>
-          </nav>
-        <main>
-            <section class="mt-5 mx-auto justify-content-center align-items-center border border-1 border-light rounded w-75 shadow-lg">
-                <div class="d-flex justify-content-end p-3">
-                    <button id="addnew" onclick="expandir()">+ Adicionar Novo</button>
-                </div>       
-                <section class="d-flex mt-2 justify-content-center align-items-center">
-                    <div id="no-items"></div>
-                    <div id="item-container" class="d-flex gap-5">
-                        <!-- <div class="card" style="width: 18rem;">
-                            <img src="..." class="card-img-top">
-                            <div class="card-body">
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </nav>
+        <article class="justify-content-center">
+            <main class="w-75 mx-auto">
+                <section class="mt-5 mx-auto justify-content-center align-items-center border border-1 border-light rounded w-75 shadow-lg">
+                    <div class="d-flex justify-content-end p-3">
+                        <button id="addnew" onclick="expandir()">+ Adicionar Novo</button>
+                    </div>       
+                    <h1 class="text-center text-white purple-default">2025</h1>
+                    <section class="d-flex mt-2 my-3 justify-content-center align-items-center">
+                        <div class="text-center" id="no-items"></div>                  
+                        <div id="item-container" class="d-flex gap-5">
+                            <!-- <div class="card pointer item-black" style="width: 18rem;">
+                                <img src="src/assets/img/porta.jpg" class="card-img-top p-3">
+                                <div class="card-body">
+                                    <h1 class="fs-5">Melhor decoração de porta do Halloween</h1>
+                                    <p class="card-text">Com tema de Stranger Things (demogorgon) foram os vencedores da melhor decoração de porta da Etec Jales 2024</p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </section>
+                    <h1 class="text-center secondary-dark-blue text-white">2024</h1>
+                    <section class="d-flex mt-5 my-5 justify-content-center align-items-center">
+                        <div id="no-items"></div>                       
+                        <div id="item-container" class="d-flex gap-5">
+                            <div class="card pointer item-black">
+                                <img src="src/assets/img/porta.jpg" class="card-img-top p-3 mx-auto">
+                                <div class="card-body">
+                                    <h1 class="fs-5">Melhor decoração de porta do Halloween</h1>
+                                    <p class="card-text">Com tema de Stranger Things (demogorgon) foram os vencedores da melhor decoração de porta da Etec Jales 2024</p>
+                                </div>
                             </div>
-                        </div> -->
-                    </div>
+                        </div>
+                    </section>
                 </section>
-            </section>
-        </main>
+            </main>
+            <aside class="p-4 me-3 mt-5 bg-light shadow-lg">
+                <div class="mx-auto">
+                    <h1 class="fs-5">TITULO PARA A SALA AQUI</h1>
+                    <p>DESCRIÇÃO AQUI</p>
+                </div>
+            </aside> 
+        </article>
     </div>
     <div id="post-modal" class="d-none">
         <div class="container modal-content">
@@ -158,13 +182,13 @@
             </div>
         </div>
     </div>
-    <footer style="background-color: #202434;" class="text-center text-lg-start text-white mt-5">
-        <section style="background: #6854cc" class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <footer class="text-center text-lg-start text-white mt-5 dark-blue">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom purple-default">
             <div class="me-5 d-none d-lg-block">
                 <span>Veja as nossas redes socias</span>
             </div>
             <div>
-                <a href="#" class="me-4 text-reset"><i class="fab fa-instagram svg-item"></i></a>
+                <a href="https://www.instagram.com/primeiro__ds" target="_blank" class="me-4 text-reset"><i class="fab fa-instagram svg-item"></i></a>
             </div>
         </section>
         <section>
@@ -200,7 +224,7 @@
                 </div>
             </div>
         </section>
-        <div class="text-center p-4" style="background-color: #181c2c;">
+        <div class="text-center p-4 secondary-dark-blue">
             ©
             <img src="src/assets/img/flamedevlogo-nobackground.png" width="32" alt="">
             <a class="text-reset fw-bold text-decoration-none" href="">FlameDev</a>

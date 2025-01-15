@@ -18,3 +18,7 @@
     border-radius: 10px;
     overflow: hidden;
 }
+
+.w-200 {
+    width: 200px;
+}
